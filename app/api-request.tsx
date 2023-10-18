@@ -40,7 +40,7 @@ export const APIRequest = () => {
       setResponse(JSON.stringify(body, null, '  '))
     } catch (e) {
       setResponse(
-        '// There was an error with the request. Please contact support@clerk.dev'
+        '// There was an error with the request. Please contact support@clerk.com'
       )
     }
   }

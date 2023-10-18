@@ -41,7 +41,7 @@ const SignupLink = () => (
 // The SignedIn and SignedOut components are used to control rendering depending
 // on whether or not a visitor is signed in.
 //
-// https://docs.clerk.dev/frontend/react/signedin-and-signedout
+// https://clerk.com/docs/authentication/overview
 const Main = () => (
   <main className={styles.main}>
     <h1 className={styles.title}>Welcome to your new app</h1>
@@ -59,7 +59,7 @@ const Main = () => (
 
       <div className={styles.card}>
         <Link
-          href="https://dashboard.clerk.dev"
+          href="https://dashboard.clerk.com"
           target="_blank"
           rel="noreferrer"
           className={styles.cardContent}
@@ -83,7 +83,7 @@ const Main = () => (
 
     <div className={styles.links}>
       <Link
-        href="https://docs.clerk.dev"
+        href="https://docs.clerk.com"
         target="_blank"
         rel="noreferrer"
         className={styles.link}
@@ -106,12 +106,12 @@ const Main = () => (
 const Footer = () => (
   <footer className={styles.footer}>
     Powered by{' '}
-    <a href="https://clerk.dev" target="_blank" rel="noopener noreferrer">
-      <img src="/clerk.svg" alt="Clerk.dev" className={styles.logo} />
+    <a href="https://clerk.com" target="_blank" rel="noopener noreferrer">
+      <img src="/clerk.svg" alt="clerk.com" className={styles.logo} />
     </a>
     +
     <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">
-      <img src="/nextjs.svg" alt="Next.js" className={styles.logo} />
+      <img src="/next-js.svg" alt="Next.js" className={styles.logo} />
     </a>
   </footer>
 )
